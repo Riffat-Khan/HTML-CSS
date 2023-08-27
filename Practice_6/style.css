@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: wheat;
+    margin: 5px;
+}
+
+.flex section {
+    background-color: rgb(145, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex1 {
+    display: flex;
+    background-color: aquamarine;
+    height: 400px;
+}
+
+.flex1 section {
+    background-color: rgb(145, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 5px;
+    height: 100px;
+}
