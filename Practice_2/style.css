@@ -1,0 +1,25 @@
+/* class base styles = . */
+.header{
+    color: blueviolet;
+    font-size: 100px;
+}
+
+.black_background{
+    background-color: black;
+}
+
+/* id based styles = # */
+#header{
+    color: blueviolet;
+    font-size: 100px;
+}
+
+.all{
+    color: antiquewhite !important;
+    background: purple !important;
+}
+
+#all{
+    color: blue ;
+    background: purple;
+}
