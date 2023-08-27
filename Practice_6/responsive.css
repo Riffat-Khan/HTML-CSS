@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-spaceBetween {
+    justify-content: space-between;
+}
+
+.justify-spaceAround {
+    justify-content: space-around;
+}
+
+header {
+    height: 100px;
+    background-color: #000000;
+    padding: 0 20px 0 20px;
+}
+
+img[alt='LOGO'] {
+    width: 40px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#stats > div {
+    height: 150px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.17);
+    padding: 0 20px 0 20px;
+}
+
+#stats {
+    padding: 40px 20px 0 20px;
+    flex-wrap: wrap;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs40 {
+    font-size: 40px;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+
+/* 320px, 768px, 1024px */
+/* Default CSS: 1280px, 1440px*/
+/* 2k Screens: 2560px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* img[alt='cart'] {
+        width: 40px;
+    }
+
+    .fs20 {
+        font-size: 15px;
+    }
+    .fs40 {
+        font-size: 20px;
+    } */
+
+    #stats > div {
+        height: 150px;
+        width: 42%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* img[alt='cart'] {
+        width: 40px;
+    }
+
+    .fs20 {
+        font-size: 15px;
+    }
+    .fs40 {
+        font-size: 20px;
+    } */  
+
+    #stats > div {
+        height: 150px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
